@@ -9,6 +9,7 @@ csv_data_df = pd.read_csv('stactOfChampion.csv')
 
 print(csv_data_df)
 
+
 df=DataFrame(csv_data_df)
 
 plt.scatter(x=df['KDA'],y=df['GOLD%'])
